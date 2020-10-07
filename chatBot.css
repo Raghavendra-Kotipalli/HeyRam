@@ -1,0 +1,149 @@
+#botIcon{
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  cursor: pointer;
+}
+
+#botBox{
+  display: none;
+  height: 450px;
+    border: 2px solid #212529;;
+    width: 250px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+}
+
+.botHead{
+  height: 30px;
+    font-size: 20px;
+    border: 2px green solid;
+    font-weight: 700;
+    padding: 5px;
+}
+
+.requestBody{
+  position: absolute;
+    bottom: 9px;
+    height: 30px;
+}
+
+.requestBody #userRequest{
+  width: 100%;
+    height: 100%;
+}
+
+div.userInputDiv{
+  margin: auto;
+    display: flex;
+}
+
+div .sendBtn{
+  height: 18px;
+  width: 20px;
+}
+
+div.userInputDiv input[type=text] {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid grey;
+  float: left;
+  background: #f1f1f1;
+}
+
+div.userInputDiv button {
+  float: left;
+  width: 20%;
+  padding: 8px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+div.userInputDiv button:hover {
+  background: #0b7dda;
+}
+
+/*.userReqData{
+  margin-top: 2px;
+    right: 5px;
+    position: absolute;
+    border: 2px solid green;
+    padding: 3px 5px;
+    background-color: #e6e6e6;
+}*/
+
+.userReqData{
+  border-radius: 10px;
+  word-break: break-all;
+  color: :#330099;
+}
+
+.userReqData:nth-of-type(even) {
+  margin-right: 5px;
+    float: right;
+    clear: left;
+    text-align: left;
+    font-size: 1em;
+    font-weight: 400;
+    width: auto !important;
+    max-width: 75% !important;
+    margin-top: 10px;
+    border: 2px solid green;
+    padding: 3px 5px;
+    background-color: #e6e6e6;
+}
+
+.userReqData:nth-of-type(odd) {
+  margin-left: 5px;
+    float: left;
+    clear: right;
+    text-align: left;
+    font-size: 1em;
+    font-weight: 400;
+    width: auto !important;
+    max-width: 75% !important;
+    margin-top: 10px;
+    border: 2px solid green;
+    padding: 3px 5px;
+    background-color: #e6e6e6;
+}
+
+#messageBody{
+  overflow-y: auto;
+    height: 365px;
+}
+
+.closeBtn{
+  height: 15px;
+    width: 15px;
+    float: right;
+    padding: 5px;
+    cursor: pointer;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #330099; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #330099; 
+}
