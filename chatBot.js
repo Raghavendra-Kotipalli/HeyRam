@@ -3,7 +3,7 @@ $(document).ready(function(){
   var chatBotCssLink = document.createElement("LINK");
   chatBotCssLink.setAttribute("rel", "stylesheet");
   chatBotCssLink.setAttribute("type", "text/css");
-  chatBotCssLink.setAttribute("href", "chatBot.css");
+  chatBotCssLink.setAttribute("href", "https://raghavendra-kotipalli.github.io/HeyRam/chatBot.css");
   document.head.appendChild(chatBotCssLink);
 
 
