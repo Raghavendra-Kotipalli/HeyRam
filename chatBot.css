@@ -2,6 +2,10 @@
 	background-color: #EBEFFA;
 }
 
+#botBox{
+  background-color: #efefef;
+}
+
 #botIcon{
   position: absolute;
   right: 20px;
