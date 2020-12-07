@@ -9,7 +9,7 @@ $(document).ready(function(){
 
 	var messageBox = document.createElement("div");
 	messageBox.id= "chatBotDiv";
-	messageBox.innerHTML = '<div id ="botIcon"> <img src="https://raghavendra-kotipalli.github.io/HeyRam/images/chatBotIcon.jpeg" height="40px" width="40px"></img> </div> <div id="botBox"> <div class="botHead"> <span>Mr Ram Bot</span> <img src="https://raghavendra-kotipalli.github.io/HeyRam/images/close.png" class="closeBtn"> </div> <div id="messageBody"><span class="userReqData"> Hello</span></div> <div class="requestBody"> <div class="userInputDiv"> <input type="text" placeholder="Search.." name="userRequest" id="userRequest" autocomplete="off"> <button type="submit" id="sendUserReq"> <img src="https://raghavendra-kotipalli.github.io/HeyRam/images/sendBtn.png" class="sendBtn" /> </button> </div> </div> </div>';
+	messageBox.innerHTML = '<div id ="botIcon"> <img src="https://raghavendra-kotipalli.github.io/HeyRam/images/chatBotIcon.jpeg" height="64px" width="64px"></img> </div> <div id="botBox"> <div class="botHead"> <span>Mr Ram Bot</span> <img src="https://raghavendra-kotipalli.github.io/HeyRam/images/close.png" class="closeBtn"> </div> <div id="messageBody"><span class="userReqData"> Hello</span></div> <div class="requestBody"> <div class="userInputDiv"> <input type="text" placeholder="Search.." name="userRequest" id="userRequest" autocomplete="off"> <button type="submit" id="sendUserReq"> <img src="https://raghavendra-kotipalli.github.io/HeyRam/images/sendBtn.png" class="sendBtn" /> </button> </div> </div> </div>';
 	document.body.appendChild(messageBox);
 
 	$("#sendUserReq").click(function(){
